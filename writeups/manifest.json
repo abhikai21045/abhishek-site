@@ -1,18 +1,10 @@
 [
   {
-    "slug": "example-jwt-none-alg",
-    "title": "Example — bypassing JWT auth with the 'none' algorithm",
-    "date": "2026-09-01",
-    "tags": ["api-security", "jwt", "example"],
-    "difficulty": "Easy",
-    "summary": "A starter writeup showing the format — replace this with your own lab notes."
-  },
-  {
-    "slug": "example-recon-automation",
-    "title": "Example — a small bash pipeline for VAPT recon",
-    "date": "2026-08-20",
-    "tags": ["automation", "recon", "example"],
+    "slug": "Recon-automation",
+    "title": "Automation - a small bash pipeline for VAPT recon",
+    "date": "2026-09-12",
+    "tags": ["automation", "recon", "filename_issue", "bash"],
     "difficulty": "Medium",
-    "summary": "Second starter writeup, showing longer-form content with code blocks."
+    "summary": "A Automated VAPT pipeline using bash."
   }
 ]
