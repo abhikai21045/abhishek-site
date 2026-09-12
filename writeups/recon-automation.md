@@ -58,6 +58,7 @@ Adding a new tool to the recon pass is now just one more line like:
 ```bash
 run_if_available nmap "nmap.txt" nmap -sV "$target"
 ```
+---
 
 ## A shortcut to the latest run (Additional functionality for fun)
 
@@ -70,6 +71,7 @@ ln -s "$timestamp" "$latest_link"
 ```
 
 `results/10.0.0.5/latest` always points at whatever the newest run was, without duplicating any files.
+---
 
 ## Testing it
 
@@ -84,6 +86,7 @@ results/10.0.0.5/latest
 ```
 
 Two separate folders, one second apart, both intact.
+---
 
 ### Future steps (Maybe)
 - Feed each run's `nmap.txt` straight into a findings-table template instead of reading it by hand.

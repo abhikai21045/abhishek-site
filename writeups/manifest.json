@@ -1,6 +1,6 @@
 [
   {
-    "slug": "Recon-automation",
+    "slug": "recon-automation",
     "title": "Automation - a small bash pipeline for VAPT recon",
     "date": "2026-09-12",
     "tags": ["automation", "recon", "filename_issue", "bash"],
