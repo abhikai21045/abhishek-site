@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Writeup - Abhishek Gore</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="topbar">
+    
+    <button class="topbar-toggle" aria-expanded="false">menu</button>
+  </div>
+  <div class="mobile-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="writeups.html">Writeups</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="shell">
+    <aside class="sidenav">
+      <div>
+       
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="writeups.html" aria-current="page">Writeups</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="status">
+        <span class="dot"></span>
+        Based in Mumbai
+      </div>
+    </aside>
+
+    <main class="main" data-writeup-reader>
+      <p class="empty-state">Loading…</p>
+    </main>
+  </div>
+
+  <script src="js/site.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="js/writeups.js"></script>
+</body>
+</html>
