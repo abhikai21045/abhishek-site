@@ -3,7 +3,7 @@
     "slug": "recon-automation",
     "title": "Automation - a small bash pipeline for VAPT recon",
     "date": "2026-09-12",
-    "tags": ["automation", "recon", "filename_issue", "bash"],
+    "tags": ["Automation", "Recon", "bash-Scripting"],
     "difficulty": "Medium",
     "summary": "A Automated VAPT pipeline using bash."
   }
