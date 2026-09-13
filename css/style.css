@@ -1,9 +1,5 @@
 /* ===================================================================
    abhishekgore.com — stylesheet
-   Design language: a working security-review dossier, not a hacker
-   theme and not a SaaS landing page. Paper, ink, a brass accent for
-   certifications/status, a brick-red accent used once with intent,
-   and a muted teal for links and tags.
    =================================================================== */
 
 :root {
@@ -11,7 +7,7 @@
   --paper-raised: #dee9f2;
   --ink: #16222d;
   --ink-soft: #3e5468;
-  --muted: #72899c;
+  --muted: #56708a;
   --rule: #cbdbe7;
   --rule-strong: #a7c0d2;
   --brass: #5b84ae;
@@ -27,14 +23,13 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  /* Intentionally not offering an auto dark mode — the paper/ink
-     concept is the design. Left as a hook for future manual toggle. */
+ 
 }
 
 * { box-sizing: border-box; }
 
 html {
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 112.5%;
 }
 
 body {
@@ -42,7 +37,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
