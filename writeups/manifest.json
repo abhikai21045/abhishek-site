@@ -8,6 +8,15 @@
     "summary": "Exploiting FTP in Metasploitable 2."
   },
   
+ {
+    "slug": "WebAppVAPTLearnings",
+    "title": "Web Application VAPT: Bypassing Authentication via Forced Browsing and Weak Credentials",
+    "date": "2026-09-16",
+    "tags": ["Exploitation" "Web Application"],
+    "difficulty": "Easy",
+    "summary": "VAPT on Live Web App - Seccurity Misconf & Broken Access Control"
+  },
+
   {
     "slug": "recon-automation",
     "title": "Automation - a small bash pipeline for VAPT recon",
@@ -17,3 +26,4 @@
     "summary": "A Automated VAPT pipeline using bash."
   }
 ]
+
