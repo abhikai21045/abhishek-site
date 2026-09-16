@@ -12,7 +12,7 @@
     "slug": "WebAppVAPTLearnings",
     "title": "Web Application VAPT: Bypassing Authentication via Forced Browsing and Weak Credentials",
     "date": "2026-09-16",
-    "tags": ["Exploitation" "Web Application"],
+    "tags": ["Exploitation" ,"Web Application"],
     "difficulty": "Easy",
     "summary": "VAPT on Live Web App - Seccurity Misconf & Broken Access Control"
   },
